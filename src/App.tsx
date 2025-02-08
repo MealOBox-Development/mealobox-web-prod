@@ -31,8 +31,7 @@ function App() {
           src={item.type}
           alt="Indian food"
           className="food-item"
-          style={{
-            
+          style={{            
             width: `${item.size}px`,
             height: `${item.size}px`,
             left: `${item.left}%`,
@@ -57,8 +56,8 @@ function App() {
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="text-[#4CAF50]">MealOBox</span>
-            <span className="text-gray-800"> is coming soon!</span>
+            <span className="text-[#4CAF50]">MealOBox's</span>
+            <span className="text-gray-800"> new website is coming soon!</span>
           </h1>
           <p className="text-gray-600 text-lg md:text-xl mb-8">
             Please check back with us in the near future for updates.
