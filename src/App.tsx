@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 function App() {
   const [foodItems, setFoodItems] = useState<Array<{ id: number; type: string; left: number; top: number; delay: number; size: number }>>([]);
-
   useEffect(() => {
     const items = [
       'https://images.unsplash.com/photo-1596797038530-2c107229654b?q=80&w=150&auto=format', // Tiffin box
@@ -53,6 +52,7 @@ function App() {
               src="/logo.svg" 
               alt="MealOBox Logo" 
               className="h-20 md:h-24 w-auto"
+              style={{ borderRadius: "15x" }}      
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
