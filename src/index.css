@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.food-item {
+  border-radius: 20vh;
+  position: absolute;
+  opacity: 0.15;
+  animation: float 20s infinite ease-in-out;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(100px, 100px) rotate(90deg);
+  }
+  50% {
+    transform: translate(-50px, 200px) rotate(180deg);
+  }
+  75% {
+    transform: translate(-100px, -100px) rotate(270deg);
+  }
+}
